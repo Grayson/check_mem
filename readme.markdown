@@ -14,4 +14,4 @@ To regenerate the memory dump completely, clean and then run again:
 	make clean && make
 
 For reading the memory dump directly, consider using a hex viewing tool such as
-HexField ([Apple Store link](https://apps.apple.com/us/app/hex-fiend/id1342896380?mt=12)).
+HexFiend ([Apple Store link](https://apps.apple.com/us/app/hex-fiend/id1342896380?mt=12)).
