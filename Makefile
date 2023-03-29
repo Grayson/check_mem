@@ -1,5 +1,5 @@
 dump: memory.txt
-	strings - -t x memory.txt
+	strings -n 16 - -t x memory.txt
 
 app:
 	cc app.c -o app
