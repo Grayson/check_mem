@@ -4,6 +4,10 @@ dump: memory.txt
 app:
 	cc app.c -o app
 
+app_optimized:
+	cc -O3 app.c -o app
+	strip -S app
+
 clean:
 	rm app
 	rm memory.txt
