@@ -1,0 +1,2 @@
+process save-core memory.txt
+exit
